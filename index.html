@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripAdvisor-clone</title>
+  <!-- font-link -->
+  <link href="https://db.onlinewebfonts.com/c/076abc8ba1bb38a0713dec3b63b880e4?family=Trip+Sans" rel="stylesheet">
+  <!-- Link-style.css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- cdn-link-icon -->
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <!-- font-weight -->
+  <link href="https://db.onlinewebfonts.com/c/e9e6117e936c7cc67af4c535cd6c58eb?family=Trip+Sans+Bold" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- menu-bar-setion -->
+  <div class="menubar__container">
+
+    <div class="section__s1">
+      <img class="png1" src="./icons/tripadvisor.png" alt="icon">
+      <b>
+        <h1>Tripadvisor</h1>
+      </b>
+    </div>
+
+    <div class="section__s2">
+
+      <p>Discover</p>
+      <p>Trips</p>
+      <p>Review</p>
+      <p>More</p>
+
+    </div>
+
+    <div class="section__s3">
+      <p><img src="/tripadvisor-clone/icons/internet.png" alt="icons"></p>
+      <p class="s3__bar">│</p>
+      <p>INR</p>
+      <button class="s3__button">Sign in</button>
+    </div>
+    <div class="s3__icon">
+      <i class="fi fi-br-menu-burger"></i>
+    </div>
+
+
+
+  </div>
+  <!-- navbar-secrtion -->
+  <div class="navbar-container">
+    <h1><b>Where to?</b></h1>
+
+    <div class="navbar-tabs">
+      <p><i class="fi fi-rs-house-blank"></i> Search All</p>
+      <p><i class="fi fi-rr-bed"></i> Hotels</p>
+      <p><i class="fi fi-rr-camera"></i> Things to Do</p>
+      <p class="active"><i class="fi fi-rr-restaurant"></i> Restaurants</p> <!-- active underline -->
+    </div>
+
+  </div>
+
+  <!-- search-bar-section -->
+  <div class="search-container">
+    <div class="search-bar">
+      <i class="fi fi-rr-search"></i>
+      <input placeholder="Places to go,things to do,hotels...">
+      <button class="search-sec-button">Search</button>
+    </div>
+
+  </div>
+
+  <!-- booking-section -->
+
+  <div class="experience-card">
+
+    <div class="exp-left">
+      <img src="./images/img2.jpg" alt="Aurora trip" class="exp-img">
+      <button class="exp-tag">@teapottwins</button>
+    </div>
+
+
+    <div class="exp-right">
+      <div class="exp-text">
+        <h2><b>Find things to do for everything you’re into</b></h2>
+        <p>Browse 400,000+ experiences and book with us.</p>
+        <button class="exp-cta">Book now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- interest_section -->
+  <div class="interest-section">
+
+    <h2 class="interest-title">Find things to do by interest</h2>
+    <p class="interest-subtitle">Whatever you're into, we’ve got it</p>
+
+    <div class="interest-grid">
+
+      <div class="interest-card">
+        <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg" alt="">
+        <span>Outdoors</span>
+      </div>
+
+      <div class="interest-card">
+        <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg" alt="">
+        <span>Food</span>
+      </div>
+
+      <div class="interest-card">
+        <img src="https://images.pexels.com/photos/1792627/pexels-photo-1792627.jpeg" alt="">
+        <span>Culture</span>
+      </div>
+
+      <div class="interest-card">
+        <img src="https://images.pexels.com/photos/416726/pexels-photo-416726.jpeg" alt="">
+        <span>Water</span>
+      </div>
+
+    </div>
+
+  </div>
+  <section class="exp-section">
+
+    <h2 class="exp-title">Explore experiences near Chennai (Madras)</h2>
+    <p class="exp-subtitle">Can’t-miss picks near you</p>
+
+    <div class="exp-grid">
+
+      <!-- CARD 1 -->
+      <div class="exp-card">
+        <div class="exp-img-wrap">
+          <img src="./images/ex1.jpg" alt="">
+          <button class="exp-heart">♡</button>
+        </div>
+
+        <h3 class="exp-name">
+          Mahabalipuram tour by Tourism Ministry approved company
+        </h3>
+
+        <div class="exp-rating">
+          <span class="rating-score">5.0</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(340)</span>
+        </div>
+
+        <p class="exp-price">
+          from <span>₹9,218</span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="exp-card">
+        <div class="exp-img-wrap">
+          <img src="./images/ex2.jpg" alt="">
+          <button class="exp-heart">♡</button>
+        </div>
+
+        <h3 class="exp-name">
+          Total Chennai city tour in Private car with guide & lunch
+        </h3>
+
+        <div class="exp-rating">
+          <span class="rating-score">4.9</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(64)</span>
+        </div>
+
+        <p class="exp-price">
+          from <span>₹5,070</span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="exp-card">
+        <div class="exp-img-wrap">
+          <img src="./images/ex3.jpg" alt="">
+          <button class="exp-heart">♡</button>
+        </div>
+
+        <h3 class="exp-name">
+          Chennai Market Tour & Cooking Class in a Local Home
+        </h3>
+
+        <div class="exp-rating">
+          <span class="rating-score">5.0</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(25)</span>
+        </div>
+
+        <p class="exp-price">
+          from <span>₹4,977</span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="exp-card">
+        <div class="exp-img-wrap">
+          <img src="images/ex4.jpg" alt="">
+          <button class="exp-heart">♡</button>
+        </div>
+
+        <h3 class="exp-name">
+          British Architecture Walk, an immersive walking tour in Chennai
+        </h3>
+
+        <div class="exp-rating">
+          <span class="rating-score">4.9</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(55)</span>
+        </div>
+
+        <p class="exp-price">
+          from <span>₹5,070</span> per adult
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="big-city-section">
+
+    <h2 class="big-city-title">Big cities, big holiday cheer</h2>
+    <p class="big-city-subtitle">Eat, drink, shop, and be merry</p>
+
+    <div class="big-city-grid">
+
+      <!-- CARD 1 -->
+      <div class="big-city-card">
+        <div class="big-city-img-wrap">
+          <img src="./images/b1.jpg" alt="">
+          <button class="big-city-heart">♡</button>
+        </div>
+
+        <h3 class="big-city-name">
+          Amsterdam Light Festival Canal Cruise With Unlimited Drinks
+        </h3>
+
+        <div class="big-city-rating">
+          <span class="big-city-score">4.5</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(442)</span>
+        </div>
+
+        <p class="big-city-price">
+          from <span>₹2,729 </span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="big-city-card">
+        <div class="big-city-img-wrap">
+          <img src="./images/b2.jpg" alt="">
+          <button class="big-city-heart">♡</button>
+        </div>
+
+        <h3 class="big-city-name">
+          Dyker Heights Brooklyn Christmas Lights Tour
+        </h3>
+
+        <div class="big-city-rating">
+          <span class="rating-score">4.3</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(228)</span>
+        </div>
+
+        <p class="big-city-price">
+          from <span>₹5,529</span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="big-city-card">
+        <div class="big-city-img-wrap">
+          <img src="./images/b3.jpg" alt="">
+          <button class="big-city-heart">♡</button>
+        </div>
+
+        <h3 class="big-city-name">
+          Chicago-Style Holiday Hike: Festive Food and Walking Tour
+        </h3>
+
+        <div class="big-city-rating">
+          <span class="rating-score">4.9</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(27)</span>
+        </div>
+
+        <p class="big-city-price">
+          from <span>7,381</span> per adult
+        </p>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="big-city-card">
+        <div class="big-city-img-wrap">
+          <img src="images/b4.jpg" alt="">
+          <button class="big-city-heart">♡</button>
+        </div>
+
+        <h3 class="big-city-name">
+          Merry Ploughboys Irish Night Dublin Admission Ticket
+        </h3>
+
+        <div class="big-city-rating">
+          <span class="rating-score">4.7</span>
+          <span class="rating-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span>
+          </span>
+          <span class="rating-count">(38)</span>
+        </div>
+
+        <p class="big-city-price">
+          from <span>₹3,648</span> per adult
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- iconic_section -->
+  <div class="iconic-section">
+
+    <h3 class="iconic-title">Iconic places you need to see</h3>
+
+
+    <div class="iconic-grid">
+
+      <div class="iconic-card">
+        <img src="./images/i1.jpg" alt="">
+        <span>
+          Rome, Italy</span>
+      </div>
+
+      <div class="iconic-card">
+        <img src="./images/i2.jpg" alt="">
+        <span>
+          Paris, France</span>
+      </div>
+
+      <div class="iconic-card">
+        <img src="./images/i3.jpg" alt="">
+        <span>
+          Las Vegas, NV</span>
+      </div>
+
+      <div class="iconic-card">
+        <img src="./images/i4.jpg" alt="">
+        <span>Reykjavik, Iceland
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Promo banner -->
+  <div class="promo-wrapper">
+    <div class="promo-card">
+
+      <!-- LEFT : IMAGE -->
+      <div class="promo-left">
+        <img src="https://images.pexels.com/photos/1464230/pexels-photo-1464230.jpeg" alt="ATV riders"
+          class="promo-img">
+      </div>
+
+      <!-- RIGHT : TEXT -->
+      <div class="promo-right">
+        <p class="promo-small">
+          Sponsored by
+          <a href="#" class="promo-link">Wanderlab</a>
+        </p>
+
+        <h2 class="promo-title">Watch The Wanderer</h2>
+
+        <p class="promo-desc">
+          Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video
+        </p>
+
+        <button class="promo-btn">Learn more</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="hero-banner">
+
+    <div class="hero-content">
+      <div class="hero-icon">
+        <i class="fi fi-brands-tripadvisor"></i>
+      </div>
+
+      <h1 class="hero-title">Travellers Choice Awards Best <br> of the Best</h1>
+
+      <p class="hero-text">
+        Among our top 1% of places, stays, eats, and<br>
+        experiences—decided by you.
+      </p>
+
+      <button class="hero-btn">See the winners</button>
+    </div>
+
+    <div class="hero-image-wrap">
+      <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg" class="hero-img">
+    </div>
+
+  </div>
+  <!-- ======= THEMED COLLECTION CARDS ======= -->
+  <div class="theme-wrapper">
+
+    <h2 class="theme-heading">Browse themed collections</h2>
+
+    <div class="theme-grid">
+
+      <div class="theme-card">
+        <div class="theme-img-box">
+          <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="">
+          <p class="theme-label">Winter in Maui</p>
+        </div>
+        <p class="theme-desc">
+          See what makes this place so magical at this time of year
+        </p>
+      </div>
+
+      <div class="theme-card">
+        <div class="theme-img-box">
+          <img src="https://images.pexels.com/photos/1794798/pexels-photo-1794798.jpeg" alt="">
+          <p class="theme-label">Mix it up after dark</p>
+        </div>
+        <p class="theme-desc">
+          From cosy cocktail bars to chic nightclubs
+        </p>
+      </div>
+
+      <div class="theme-card">
+        <div class="theme-img-box">
+          <img src="https://images.pexels.com/photos/1125278/pexels-photo-1125278.jpeg" alt="">
+          <p class="theme-label">Art and culture for days</p>
+        </div>
+        <p class="theme-desc">
+          The city's best museums, galleries and more
+        </p>
+      </div>
+
+      <div class="theme-card">
+        <div class="theme-img-box">
+          <img src="https://images.pexels.com/photos/1837422/pexels-photo-1837422.jpeg" alt="">
+          <p class="theme-label">If you're feeling fancy-ish</p>
+        </div>
+        <p class="theme-desc">
+          Luxury experiences that are totally worth it
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <!-- ===== END CARDS SECTION ===== -->
+
+
+  <!-- ======= FOOTER SECTION ======= -->
+  <div class="ta-footer">
+    <div class="ta-footer-inner">
+
+      <div class="ta-footer-top">
+
+        <div class="footer-col">
+          <h4>About Tripadvisor</h4>
+          <a href="#">About Us</a>
+          <a href="#">Press</a>
+          <a href="#">Resources and Policies</a>
+          <a href="#">Careers</a>
+          <a href="#">Trust &amp; Safety</a>
+          <a href="#">Contact us</a>
+          <a href="#">Tripadvisor Technology Blog</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#">Write a review</a>
+          <a href="#">Add a Place</a>
+          <a href="#">Join</a>
+          <a href="#">Travellers' Choice</a>
+          <a href="#">Help Centre</a>
+          <a href="#">Travel Stories</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Do Business With Us</h4>
+          <a href="#">Owners &amp; DMO/CVB</a>
+          <a href="#">Business Advantage</a>
+          <a href="#">Sponsored Placements</a>
+          <a href="#">Advertise with Us</a>
+          <a href="#">Access our Content API</a>
+
+          <h4 class="sub-heading">Get The App</h4>
+          <a href="#">iPhone App</a>
+          <a href="#">Android App</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tripadvisor Sites</h4>
+          <p>Book tours and attraction tickets on <a href="#">Viator</a></p>
+        </div>
+
+      </div>
+
+      <div class="ta-footer-bottom">
+
+        <div class="footer-bottom-left">
+          <div class="footer-logo-line">
+            <div class="footer-logo-circle"><i class="fi fi-brands-tripadvisor"></i></div>
+            <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy and Cookies Statement</a>
+            <a href="#">Cookie consent</a>
+            <a href="#">Site Map</a>
+            <a href="#">How the site works</a>
+            <a href="#">Contact us</a>
+            <a href="#">Accessibility Statement</a>
+          </div>
+
+          <p class="footer-note">
+            This is the version of our website addressed to speakers of English in India.
+            If you are a resident of another country or region, please select the appropriate
+            version of Tripadvisor for your country or region in the drop-down menu.
+          </p>
+
+          <button class="footer-readmore">Read more ▾</button>
+        </div>
+
+        <div class="footer-bottom-right">
+          <div class="footer-select-row">
+            <select class="footer-select">
+              <option>₹ INR</option>
+              <option>$ USD</option>
+              <option>€ EUR</option>
+            </select>
+
+            <select class="footer-select">
+              <option>India</option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+            </select>
+          </div>
+
+          <div class="footer-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ===== END FOOTER ===== -->
+
+</body>
+
+</html>
